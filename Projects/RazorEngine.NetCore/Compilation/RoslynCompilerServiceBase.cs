@@ -241,7 +241,8 @@ namespace RazorEngine.Roslyn.CSharp
                 }
 
                 EmitResult result = null;
-                if (Debugger.IsAttached)
+                // if (Debugger.IsAttached)
+                if(false)
                 {
                     result = compilation.Emit(assemblyStream, pdbStreamHelper, options: opts);
                 }

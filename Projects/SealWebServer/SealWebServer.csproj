@@ -15,6 +15,7 @@
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<AssemblyVersion>6.5.1.0</AssemblyVersion>
 		<AssemblyTitle>Seal Report Web Server</AssemblyTitle>
+		<UserSecretsId>344f7417-1d35-4309-80ab-7644b44d3a2e</UserSecretsId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
